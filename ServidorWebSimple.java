@@ -30,7 +30,7 @@ final class SolicitudHttp implements Runnable {
 		try {
 			proceseSolicitud();
 		} catch (Exception e) {
-			System.out.println("Lo siento, bebé (eh, eh, eh), No trates de enamorarme o no te hago coro (eh, eh, eh)");
+			System.out.println("error, no se pudo procesar la solicitud");
 		}
 	}
 
